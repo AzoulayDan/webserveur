@@ -26,7 +26,7 @@ def get_users():
 
 
 @app.route('/inscription', methods=['post'])
-def get_players():
+def ajout_inscrit():
     db = Db()                               #Ouverture de la connection avec la base de donnée.
     data = request.get_json()               #Récupération de l'objet Json.
 
@@ -37,7 +37,7 @@ def get_players():
         db.close()
         return json.dumps("Ce nom est déja utilisé"), 400, {'Content-Type': 'application/json'}
     else:
-        db.execute("INSERT INTO Joueur(name,posX,posY,rayon,budget) VALUES (%s,%s,%s,%s,%s); ",(data['name'], posX, posY, rayon, bugdet))
+        db.execute("INSERT INTO inscrit(id_joueur) VALUES (%s); ",(data['name']))
         db.close()
         # Je récupére l'id du dernier joueur ajouté
         return 0
