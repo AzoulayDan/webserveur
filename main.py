@@ -40,7 +40,7 @@ def ajout_inscrit():
         db.execute("INSERT INTO inscrit(id_joueur) VALUES (%s); ",(data['name']))
         db.close()
         # Je récupére l'id du dernier joueur ajouté
-        return 0
+        return json.dumps('OK'), 201, {'Content-Type': 'application/json'}
 
 if __name__ == "__main__":
   app.run()
