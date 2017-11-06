@@ -22,7 +22,7 @@ def get_users():
     db = Db()
     test = db.select('SELECT * FROM inscrit;')
     db.close()
-    return son.dumps(test), 201, {'Content-Type': 'application/json'}
+    return json.dumps(test), 201, {'Content-Type': 'application/json'}
 
 
 @app.route('/inscription', methods=['post'])
