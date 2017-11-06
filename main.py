@@ -22,7 +22,8 @@ def get_users():
     db = Db()
     test = db.select('SELECT * FROM inscrit;')
     db.close()
-    return test
+    return son.dumps(test), 201, {'Content-Type': 'application/json'}
+
 
 @app.route('/inscription', methods=['post'])
 def get_players():
