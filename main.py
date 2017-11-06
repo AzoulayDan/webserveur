@@ -17,12 +17,12 @@ def reset():
     return "Reset done."
 
 #Liste de tous les utilisateurs
-@app.route('/users', methods=['GET'])
+@app.route('/inscrit', methods=['GET'])
 def get_users():
     db = Db()
-    test = db.select('SELECT * FROM User;')
+    test = db.select('SELECT * FROM inscrit;')
     db.close()
-    return test
+    return 'ee'
 
 @app.route('/inscription', methods=['post'])
 def get_players():
