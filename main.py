@@ -22,7 +22,7 @@ def get_users():
     db = Db()
     test = db.select('SELECT * FROM inscrit;')
     db.close()
-    return 'ee'
+    return test
 
 @app.route('/inscription', methods=['post'])
 def get_players():
