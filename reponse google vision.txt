@@ -1,0 +1,436 @@
+{
+  "labelAnnotations": [
+    {
+      "mid": "/m/04ldz",
+      "description": "llama",
+      "score": 0.9603949
+    },
+    {
+      "mid": "/m/01v4x4",
+      "description": "camel like mammal",
+      "score": 0.9054269
+    },
+    {
+      "mid": "/m/035qhg",
+      "description": "fauna",
+      "score": 0.8589895
+    },
+    {
+      "mid": "/m/0pcr",
+      "description": "alpaca",
+      "score": 0.83276117
+    },
+    {
+      "mid": "/m/03cjrt",
+      "description": "highland",
+      "score": 0.8287532
+    },
+    {
+      "mid": "/m/02rbvf",
+      "description": "vicuña",
+      "score": 0.8083255
+    },
+    {
+      "mid": "/m/0ch8v",
+      "description": "livestock",
+      "score": 0.7728735
+    },
+    {
+      "mid": "/m/09d_r",
+      "description": "mountain",
+      "score": 0.7073301
+    },
+    {
+      "mid": "/m/01gd91",
+      "description": "pasture",
+      "score": 0.6957888
+    },
+    {
+      "mid": "/m/0fbf1m",
+      "description": "terrestrial animal",
+      "score": 0.65456545
+    },
+    {
+      "mid": "/m/01c7cq",
+      "description": "grassland",
+      "score": 0.6498114
+    },
+    {
+      "mid": "/m/0cblv",
+      "description": "ecoregion",
+      "score": 0.6479966
+    },
+    {
+      "mid": "/m/07bgp",
+      "description": "sheep",
+      "score": 0.6478229
+    },
+    {
+      "mid": "/m/01bqvp",
+      "description": "sky",
+      "score": 0.5758507
+    },
+    {
+      "mid": "/m/01280g",
+      "description": "wildlife",
+      "score": 0.5734068
+    },
+    {
+      "mid": "/m/02mdrb",
+      "description": "guanaco",
+      "score": 0.50333846
+    }
+  ],
+  "safeSearchAnnotation": {
+    "adult": "VERY_UNLIKELY",
+    "spoof": "VERY_UNLIKELY",
+    "medical": "VERY_UNLIKELY",
+    "violence": "VERY_UNLIKELY"
+  },
+  "imagePropertiesAnnotation": {
+    "dominantColors": {
+      "colors": [
+        {
+          "color": {
+            "red": 98,
+            "green": 82,
+            "blue": 52
+          },
+          "score": 0.24116923,
+          "pixelFraction": 0.053705305
+        },
+        {
+          "color": {
+            "red": 93,
+            "green": 120,
+            "blue": 137
+          },
+          "score": 0.099314354,
+          "pixelFraction": 0.17863321
+        },
+        {
+          "color": {
+            "red": 207,
+            "green": 195,
+            "blue": 161
+          },
+          "score": 0.07106538,
+          "pixelFraction": 0.023500577
+        },
+        {
+          "color": {
+            "red": 129,
+            "green": 115,
+            "blue": 85
+          },
+          "score": 0.1611083,
+          "pixelFraction": 0.046064015
+        },
+        {
+          "color": {
+            "red": 74,
+            "green": 56,
+            "blue": 25
+          },
+          "score": 0.090010144,
+          "pixelFraction": 0.017012687
+        },
+        {
+          "color": {
+            "red": 168,
+            "green": 154,
+            "blue": 122
+          },
+          "score": 0.060317673,
+          "pixelFraction": 0.07201557
+        },
+        {
+          "color": {
+            "red": 68,
+            "green": 85,
+            "blue": 88
+          },
+          "score": 0.053621054,
+          "pixelFraction": 0.121107265
+        },
+        {
+          "color": {
+            "red": 57,
+            "green": 81,
+            "blue": 95
+          },
+          "score": 0.04640957,
+          "pixelFraction": 0.16882929
+        },
+        {
+          "color": {
+            "red": 96,
+            "green": 77,
+            "blue": 35
+          },
+          "score": 0.04452026,
+          "pixelFraction": 0.0061995387
+        },
+        {
+          "color": {
+            "red": 234,
+            "green": 227,
+            "blue": 196
+          },
+          "score": 0.035413552,
+          "pixelFraction": 0.005983276
+        }
+      ]
+    }
+  },
+  "cropHintsAnnotation": {
+    "cropHints": [
+      {
+        "boundingPoly": {
+          "vertices": [
+            {
+              "x": 176
+            },
+            {
+              "x": 543
+            },
+            {
+              "x": 543,
+              "y": 458
+            },
+            {
+              "x": 176,
+              "y": 458
+            }
+          ]
+        },
+        "confidence": 0.79999995,
+        "importanceFraction": 0.77
+      },
+      {
+        "boundingPoly": {
+          "vertices": [
+            {
+              "x": 145
+            },
+            {
+              "x": 611
+            },
+            {
+              "x": 611,
+              "y": 458
+            },
+            {
+              "x": 145,
+              "y": 458
+            }
+          ]
+        },
+        "confidence": 0.79999995,
+        "importanceFraction": 0.87
+      },
+      {
+        "boundingPoly": {
+          "vertices": [
+            {
+              "x": 17
+            },
+            {
+              "x": 574
+            },
+            {
+              "x": 574,
+              "y": 458
+            },
+            {
+              "x": 17,
+              "y": 458
+            }
+          ]
+        },
+        "confidence": 0.79999995,
+        "importanceFraction": 0.94
+      }
+    ]
+  },
+  "webDetection": {
+    "webEntities": [
+      {
+        "entityId": "/m/04ldz",
+        "score": 8.327017,
+        "description": "Llama"
+      },
+      {
+        "entityId": "/m/0345h",
+        "score": 0.9324,
+        "description": "Germany"
+      },
+      {
+        "entityId": "/m/02mdrb",
+        "score": 0.83101857,
+        "description": "Guanaco"
+      },
+      {
+        "entityId": "/m/0pcr",
+        "score": 0.77663267,
+        "description": "Alpaca"
+      },
+      {
+        "entityId": "/m/02rbvf",
+        "score": 0.48255378,
+        "description": "Vicuña"
+      },
+      {
+        "entityId": "/m/07bgp",
+        "score": 0.3713948,
+        "description": "Sheep"
+      },
+      {
+        "entityId": "/m/09h47q",
+        "score": 0.3711,
+        "description": "iStock"
+      },
+      {
+        "entityId": "/m/04scj",
+        "score": 0.3153,
+        "description": "Meat"
+      },
+      {
+        "entityId": "/m/07yst1",
+        "score": 0.3055,
+        "description": "Royalty-free"
+      },
+      {
+        "entityId": "/m/068jd",
+        "score": 0.3024,
+        "description": "Photograph"
+      },
+      {
+        "entityId": "/m/05wkw",
+        "score": 0.278,
+        "description": "Photography"
+      },
+      {
+        "entityId": "/m/036jvk",
+        "score": 0.2593,
+        "description": "Stock photography"
+      },
+      {
+        "entityId": "/m/0jg24",
+        "score": 0.2565,
+        "description": "Image"
+      },
+      {
+        "entityId": "/m/09jcvs",
+        "score": 0.1974,
+        "description": "YouTube"
+      },
+      {
+        "entityId": "/m/038wdw",
+        "score": 0.0025200003,
+        "description": "Llamas"
+      }
+    ],
+    "fullMatchingImages": [
+      {
+        "url": "https://media.istockphoto.com/photos/lama-at-machu-picchu-picture-id139995925?k=6&amp;m=139995925&amp;s=612x612&amp;w=0&amp;h=8fRXDw_QnbNu1FGidkhFCLepq7dVgrhmvjgRx6Iibj4="
+      },
+      {
+        "url": "https://pbs.twimg.com/media/DJ-EzGgXoAATUc4.jpg"
+      },
+      {
+        "url": "https://i.ytimg.com/vi/XEPVauv1qs4/hqdefault.jpg"
+      },
+      {
+        "url": "http://www.varoxcraft.de/data/avatars/l/0/213.jpg?1508072979"
+      }
+    ],
+    "partialMatchingImages": [
+      {
+        "url": "https://media.istockphoto.com/photos/lama-at-machu-picchu-picture-id139995925?k=6&amp;m=139995925&amp;s=612x612&amp;w=0&amp;h=8fRXDw_QnbNu1FGidkhFCLepq7dVgrhmvjgRx6Iibj4="
+      },
+      {
+        "url": "https://pbs.twimg.com/media/DJ-EzGgXoAATUc4.jpg"
+      },
+      {
+        "url": "http://weekend.levif.be/medias/4851/2484025.jpg"
+      },
+      {
+        "url": "https://i.ytimg.com/vi/XEPVauv1qs4/hqdefault.jpg"
+      },
+      {
+        "url": "http://www.bilgiustaniz.com/wp-content/uploads/2017/09/lama.jpg"
+      },
+      {
+        "url": "http://www.varoxcraft.de/data/avatars/l/0/213.jpg?1508072979"
+      },
+      {
+        "url": "http://samequizy.pl/wp-content/uploads/2017/06/filing_images_0c6a8f25f435.jpg"
+      },
+      {
+        "url": "https://i.ytimg.com/vi/XEPVauv1qs4/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&amp;rs=AOn4CLAxueQAe0kjNnvM7h9Wc06v0ZNPfg"
+      }
+    ],
+    "pagesWithMatchingImages": [
+      {
+        "url": "http://www.wolfhallbroadway.com/trends/lama"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=fm5KPOX9oss"
+      },
+      {
+        "url": "http://the-hobbit-movie.com/grzybj-youtube"
+      },
+      {
+        "url": "http://weekend.levif.be/lifestyle/culinaire/la-viande-de-lama-le-dernier-chic-pour-remplacer-la-viande-rouge-jugee-dangereuse/article-normal-430539.html"
+      },
+      {
+        "url": "https://www.istockphoto.com/fr/photos/lama"
+      },
+      {
+        "url": "http://www.istockphoto.com/pt/fotos/llama"
+      },
+      {
+        "url": "https://varoxcraft.de/index.php?members/lamaofficial.213/"
+      },
+      {
+        "url": "http://www.varoxcraft.de/index.php?threads/etwas-gro%C3%9Fes-kommt-morgen.1337/"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=CAZ47HE9rSE"
+      },
+      {
+        "url": "http://samequizy.pl/co-wolisz-lamy-czy-alpaki/"
+      },
+      {
+        "url": "http://www.bilgiustaniz.com/lama-hayvani-neden-tukurur-kisa-bilgi/"
+      },
+      {
+        "url": "https://twicopy.org/ja/VanNintendo/"
+      }
+    ],
+    "visuallySimilarImages": [
+      {
+        "url": "http://weekend.levif.be/medias/4851/2484025.jpg"
+      },
+      {
+        "url": "https://jobprod.com/wp-content/uploads/2016/04/licorne-lama.png"
+      },
+      {
+        "url": "http://bsnscb.com/data/out/112/39115630-lama-wallpapers.jpg"
+      },
+      {
+        "url": "https://thumbs.dreamstime.com/t/profil-de-lama-et-montagnes-de-pyr%C3%A9n%C3%A9es-16471681.jpg"
+      },
+      {
+        "url": "https://www.borispatagonia.com/images/mag/guanaco.jpg"
+      },
+      {
+        "url": "https://cdn.instinct-voyageur.fr/wp-content/uploads/2012/08/lama.jpg"
+      },
+      {
+        "url": "https://thumbs.dreamstime.com/t/alpaga-sur-la-montagne-donnant-sur-un-beau-lac-au-p%C3%A9rou-29848318.jpg"
+      },
+      {
+        "url": "http://pierre.delacroix.chez-alice.fr/perou/Lama.jpg"
+      }
