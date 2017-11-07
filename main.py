@@ -40,7 +40,9 @@ def ajout_inscrit():
         return json.dumps("Ce nom est déja utilisé"), 400, {'Content-Type': 'application/json'}
     else:
 		print(json.dumps(data))
-        db.execute("INSERT INTO inscrit(id_joueur) VALUES (%s); ",(data['id_joueur']))
+		
+		db.execute("INSERT INTO inscrit(id_joueur) VALUES (%s);",(data['id_joueur']))
+        
         db.close()
         # Je récupére l'id du dernier joueur ajouté
         return json.dumps('OK'), 201, {'Content-Type': 'application/json'}
