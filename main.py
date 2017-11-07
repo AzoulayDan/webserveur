@@ -43,12 +43,12 @@ def ajout_inscrit():
         print('mdr')
         print(json.dumps(data))
         print()
-        
+
         test = data['id_joueur']
         #db.execute("INSERT INTO inscrit(id_joueur) VALUES ('%s');",(data['id_joueur']))
         #db.execute("INSERT INTO inscrit(id_joueur) VALUES (id_joueur);",('tata'))
 
-        db.execute("INSERT INTO Jour(id_joueur) VALUES ('%s');",(test))
+        db.execute("INSERT INTO inscrit(id_joueur) VALUES ('%s');",(test))
         db.close()
         # Je récupére l'id du dernier joueur ajouté
         return json.dumps('OK'), 201, {'Content-Type': 'application/json'}
