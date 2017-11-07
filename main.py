@@ -30,7 +30,7 @@ def ajout_inscrit():
     db = Db()                               #Ouverture de la connection avec la base de donnée.
     data = request.get_json()               #Récupération de l'objet Json.
 	
-	print(data['id_joueur'])
+	
 
     verif = db.select("SELECT * FROM inscrit where id_joueur = '%s';" % (data['id_joueur']))
 
@@ -39,6 +39,7 @@ def ajout_inscrit():
         db.close()
         return json.dumps("Ce nom est déja utilisé"), 400, {'Content-Type': 'application/json'}
     else:
+		print(json.dumps(data))
         db.execute("INSERT INTO inscrit(id_joueur) VALUES (%s); ",(data['id_joueur']))
         db.close()
         # Je récupére l'id du dernier joueur ajouté
