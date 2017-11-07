@@ -36,12 +36,14 @@ def ajout_inscrit():
 
     #Si la taille de mon élement est vide alors cet intitulé n'est pas dans la base.
     if (len(verif) != 0):
-		print('trololo')
+        print('trololo')
+        db.close()
         return json.dumps("Ce nom est déja utilisé"), 400, {'Content-Type': 'application/json'}
     else:
-		print('mdr')
-		print(json.dumps(data))
-		db.execute("INSERT INTO inscrit(id_joueur) VALUES (%s);",(data['id_joueur']))
+        print('mdr')
+        print(json.dumps(data))
+        db.execute("INSERT INTO inscrit(id_joueur) VALUES (%s);",(data['id_joueur']))
+        db.close()
         # Je récupére l'id du dernier joueur ajouté
         return json.dumps('OK'), 201, {'Content-Type': 'application/json'}
 
